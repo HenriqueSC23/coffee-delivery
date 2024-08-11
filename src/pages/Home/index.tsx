@@ -2,6 +2,7 @@ import {
   CoffeeListContainer,
   CoffeeListSession,
   ContentContainer,
+  HomeContainer,
   IntroSession,
   ItensContainer,
   TitleContainer,
@@ -136,7 +137,7 @@ export function Home() {
   ]
 
   return (
-    <div>
+    <HomeContainer>
       <IntroSession>
         <ContentContainer>
           <TitleContainer>
@@ -197,6 +198,6 @@ export function Home() {
           ))}
         </CoffeeListContainer>
       </CoffeeListSession>
-    </div>
+    </HomeContainer>
   )
 }

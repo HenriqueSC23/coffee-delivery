@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
       ${(props) => props.theme.fonts.titleM}
     }
   }
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     width: 0.4rem;
   }
 
@@ -38,5 +38,5 @@ export const GlobalStyle = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     border-radius: 2rem;
     background: ${({ theme }) => theme.colors.purple}
-  }
+  } */
 `

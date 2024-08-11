@@ -2,6 +2,11 @@ import styled from 'styled-components'
 import { defaultTheme } from '../../styles/themes/default'
 import introBackgroundImg from '../../assets/intro-background.png'
 
+export const HomeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
 export const IntroSession = styled.div`
   display: flex;
   align-items: center;
